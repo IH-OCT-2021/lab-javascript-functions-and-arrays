@@ -46,7 +46,13 @@ function averageNumbers(promedio) {
 // Level 2: Array of strings
 const wordsArr = ['seat', 'correspond', 'linen', 'motif', 'hole', 'smell', 'smart', 'chaos', 'fuel', 'palace'];
 
-function averageWordLength() { }
+function averageWordLength(lista) {
+  let list = '';
+  for (let valabra of lista){
+    list += valabra
+  }
+  return list.length / lista.length
+ }
 
 // Bonus - Iteration #4.1
 function avg() { }
