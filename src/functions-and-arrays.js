@@ -112,7 +112,22 @@ const wordsCount = [
   'matter'
 ];
 
-function howManyTimes() { }
+function howManyTimes(arr, str) { 
+  
+  return arr.filter(word => word === str).length;
+  
+  // return filtered.length;
+  
+  // let count = 0;
+
+  // for (let word of arr){
+  //   if(word === str){
+  //     count++;
+  //   }
+  // }
+  // return count;
+}
+
 
 // Iteration #8: Bonus
 const matrix = [
